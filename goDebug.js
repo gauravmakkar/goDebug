@@ -166,11 +166,11 @@
     if (!handlers) {
       handlers = {}
       done = handlers.done = function () {
-        $("[cheetInfo]").each(function (index, element) {
+        $("[debugInfo]").each(function (index, element) {
 
           jQuery(element).tooltip({
             trigger: 'show',
-            title: jQuery(element).attr('cheetInfo')
+            title: jQuery(element).attr('debugInfo')
           }).tooltip('show')
         })
       }
