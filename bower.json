@@ -1,0 +1,21 @@
+{
+  "name": "goDebug",
+  "main": "goDebug.js",
+  "version": "0.1",
+  "authors": [
+    "Gaurav MphRx <gmakkar119@gmail.com>"
+  ],
+  "description": "Debug Tool",
+  "keywords": [
+    "debug"
+  ],
+  "license": "MIT",
+  "homepage": "https://www.facebook.com/Gaurav0.0Makkar",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
